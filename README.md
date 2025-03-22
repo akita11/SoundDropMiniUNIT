@@ -32,8 +32,8 @@
 
 <img src="https://github.com/akita11/SoundDropMiniUNIT/blob/main/SoundDropMiniUNIT_back.jpg" width="240px">
 
-- JP1をカット
-- JP2・JP3の中央と△マーク側をカットし、中央と反対側（△マークがない側）をショート
+- JP2をカット
+- JP3・JP4の中央と△マーク側をカットし、中央と反対側（△マークがない側）をショート
 
 
 ## 本体機能の設定
