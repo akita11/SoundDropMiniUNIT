@@ -59,11 +59,15 @@ PC接続時に現れるドライブ内の"config.txt"で、以下の機能を指
 
 「SoundDropMini.m5b」をダウンロードし、UIFlow(v1)の"Custom"の"Open *.m5b"からこのファイルを指定すると、Init、Play、Stopの3つのブロックを使用できます。
 
+※(25/04/21)内容にミスがありました。現在の修正済みファイルを使ってください。
+
 <img src="https://github.com/akita11/SoundDropMiniUNIT/blob/main/SoundDropMini_Block.png" width="240px">
 
 - SoundDropMini_Init : 初期化。最初に1回だけ使用します。"TX"と"RX"には、使用するGroveポート・マイコン本体にあわせて、使用するピン番号を指定します。例えば、M5StackBasicのPortA（本体の赤いコネクタ）の場合は、上図のようにTX=21、RX=22を指定します。M5StackCore2のPortAの場合は、TX=32、RX=33となります。
 - SoundDropMini_Play : numに指定した「曲番号」の音声を再生します。
 - SoundDropMini_Stop : 再生中の音声を停止します。
+
+※この例では再生した直後に停止していますので、音声がほぼ聞こえません。実際には目的に合わせて使い分けてください。
 
 
 ### その他のソフトウエアでの使い方
