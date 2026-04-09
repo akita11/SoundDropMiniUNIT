@@ -29,6 +29,7 @@
 ### 3.5mmジャックに直接スピーカを接続する方法
 
 3.5mmジャックに直接スピーカを接続することもできます。その場合は、基板裏面のハンダジャンパを以下のように修正してください。（スピーカはモノラル再生となります）
+※結線は、プラグの根本側から、GND-SPK-NC(無接続)、の順となります。そのため、ステレオ型スピーカではL側からの再生になります。またモノラルプラグでは、このGNDとSPKが短絡されるため使用できません。
 
 <img src="https://github.com/akita11/SoundDropMiniUNIT/blob/main/SoundDropMiniUNIT_back.jpg" width="240px">
 
